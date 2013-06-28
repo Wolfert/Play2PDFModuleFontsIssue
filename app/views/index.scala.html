@@ -1,0 +1,14 @@
+@(message: String)
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <title>Welcome to Play 2.1</title>
+    <link rel="stylesheet" type="text/css" media="print" href="@routes.Assets.at("stylesheets/print.css")">
+</head>
+    <body>
+        <p>@message (default font)</p>
+        <p class="customFont">@message (custom font)</p>
+    </body>
+</html>
